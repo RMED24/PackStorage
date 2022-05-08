@@ -1,4 +1,4 @@
-read -p "This will install Ryujinx and setup the firmware/keys necessary. This could take some time and isn't 100% finished yet. /n Continue? (Ctrl+C to cancel)"
+read -p "This will install Ryujinx and setup the firmware/keys necessary. This could take some time and isn't 100% finished yet. Continue? (Ctrl+C to cancel)"
 printf "Launching Pinejinx"
 
  bash -c "$(curl -s https://raw.githubusercontent.com/edisionnano/Pine-jinx/main/pinejinx.sh)"
