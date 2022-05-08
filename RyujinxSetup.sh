@@ -12,6 +12,6 @@ tar -xf registered.tar.gz
 
 mkdir ~/.config/Ryujinx/system/
 cd ~/.config/Ryujinx/system/
-curl -L "https://github.com/RMED24/PackStorage/releases/download/FW/prod.keys"
+curl -L "https://github.com/RMED24/PackStorage/releases/download/FW/prod.keys" > prod.keys
 
 read -p "Setup complete! Have a nice day. If there's any issues, report to RMED24"
